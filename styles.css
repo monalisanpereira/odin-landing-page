@@ -1,5 +1,6 @@
 :root {
   --light-gray: #E5E7EB;
+  --middle-blue: #3882F6;
   --dark-blue: #1F2937;
   --whitish-color: #F9FAF8;
   --link-hover: #27364A;
@@ -15,6 +16,8 @@ html {
   font-family: sans-serif;
 }
 
+/*---------- HEADER ----------*/
+
 header, nav, .nav__links {
   height: 4em;
 }
@@ -24,6 +27,11 @@ header {
   color: var(--whitish-color);
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
 .logo {
@@ -54,7 +62,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-right: 20%;
-  min-width: 55%;
+  min-width: 40%;
 }
 
 .nav__link-wrapper {
@@ -74,8 +82,60 @@ nav {
   color: var(--light-gray);
   text-decoration: none;
   white-space: nowrap;
+  font-size: 18px;
 }
 
 .nav__link:visited {
   text-decoration: none;
+}
+
+/*---------- MAIN CONTENT ----------*/
+
+.section-1 {
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+  /*flex-wrap: wrap;*/
+}
+
+.section-1__left-column {
+  max-width: 45vw;
+  margin: 0 70px 0 5vw;
+}
+
+.section-1__main-text {
+  color: var(--whitish-color);
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin: 10px 0;
+}
+
+.section-1__secondary-text {
+  color: var(--light-gray);
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.section-1__button {
+  background-color: var(--middle-blue);
+  border: none;
+  border-radius: 10px;
+  color: var(--whitish-color);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.section-1__right-column {
+  max-height: 100%;
+  max-width: 50%;
+  margin: 0 5vw 0 0;
+}
+
+.section-1__main-image {
+  max-height: 50vh;
+  max-width: 100%;
 }
