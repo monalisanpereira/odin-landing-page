@@ -9,6 +9,7 @@ Basic landing page project to practice transforming a design into HTML and CSS.
 ## Skills
 
 * HTML5
-* Vanilla CSS
+* CSS3
+* BEM Methodology
 
 Preview the project [here](https://monalisanpereira.github.io/odin-landing-page/).
