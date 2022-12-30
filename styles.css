@@ -32,6 +32,16 @@ header {
   margin-left: 15%;
 }
 
+.logo__icon {
+  max-height: 80%;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
 nav {
   display: flex;
   width: 50%;
