@@ -189,3 +189,36 @@ nav {
   color: gray;
   font-size: 20px;
 }
+
+/*---------- MAIN CONTENT - SECTION 3 ----------*/
+
+.section-3 {
+  background-color: var(--light-gray);
+  color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+
+.section-3__text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 60vw;
+}
+
+.section-3__quote {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.section-3__author {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 40vw;
+}
